@@ -7,8 +7,6 @@
     <meta name="description" content="Porfolio for web develoment" />
     <meta name="keyword" content="html,css,javascripts" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon"
-        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAY1BMVEX///8AAACxsbGQkJDs7Oz39/fNzc3y8vIeHh4YGBi4uLiXl5f8/PxYWFhGRkbGxsbc3NwqKiq+vr6IiIheXl4xMTFNTU2dnZ12dnY2NjbW1tZpaWlAQEB8fHxwcHCqqqoODg7pP9d0AAAExElEQVR4nO2c27qCIBBGLc+ZhwytzHK//1PulEFFRdM4XfjfpV+2gmGYGRDjMFB5D+LEPRtSdHaTOLhHQwaD/nh3LDk4fVnOmw3lma58Iizb9KahUKIKqVaCJqC8SiVSrcofQvmFaibDKHwa6qHAvseyHn0oXwumD5XfQXka9B0W7sEG6qiapVNFoJBqkr4QhvKU+qehEr+BClRz0DIbKFs1Bi23hrqrphjq+YFyVEMM5RyMSBO/2cmKDO16z/ggaTb2agVGrBphrNjQynNiJYayCJgt15CUt6yRhki7du3atWuXlkqc9LiktJAYaVspKi9tLWlGXlaGZiEjNkpfX+BQeokObp18LVItJLKq465uJSJTWBqeeMu/ztJFUC6Q/sD0sXohlpVSfzxCb3NB1zvK/3rfSfkz9fruckuT7wa67VRZ11bce9C+wKP910qX6ITtn+Htskx48N+GvxsTqhdfpgIeizbNHBZpLL5lJ7JwsnE2s8Dgc55MpAPWDmvbgmw38fmPQPDk4cqvXcMcnagncLQqd5NJWNgbPPGH3/p/QmDm2bpvETvEbZXx7j/wB+tWBBPizVFjVzf4wA0Kj2h/Xe85xDvhUi/MUiU3qBKPZ2b4kZyCZ/R45M/g1PnWgrRU2HwvwVMCt2gBLJbR8vYxJFNQ/aNhRdjJ1WvzyY22NDdbhccezu7tMNINz3EOPTwQX0sHczAnbjmjjQ6NFeHmcC5/h792YoK9B7zWFo9MqIlmgsbC9xOnMyFTDtT5ymL6GNKomioJaoaJmLd0qF7f5UFhfVQEvQzspgKqdY6HZy94iJ/t5cHglwHlknHn0z9zrojTjOjoVwYU6byxN3QIFd2BEqBsJtOHilQ/qHlJAhRcm/6NyZsSoCAVeE5/A6ydilTFQ8GczwraIaanQgLxUCd8iZmdgL86SYUK8CXmAvTEffFQYDTMiK0Ym5x4KPCczNzEGneveKjsO6iHjlD9pEw8VK5j94GhM6u+Sgx9ySVcVbiEJeeJM0XJznNhmgFmydPM/IRsgxuTPCHPhy7m1E3FQR50nvwgbyYcbpmkh8P9xIHKO23SdyoSB0aKdeqKCwpSLCoZjSAZvZbdNSXJqJ5pu54FjuVSkHio98St2aLZJBTnSt5kzXOmvDjQvbnH7c0FSMOj6eW6YSH2yCgi45pnxmvJYbHaXJes8yyjS9YD2ThY5V1H/80coLnXrjmxhZhD6ntVzCG8UWDpKxeMaEH+w28vB4d1MTJTclzb/n0JMfz5CSNB//mbV3u2rvfOCpJPb+vC9mHG/24WMYkftwBw3rLUblLa0AHtGik/f4DltlNJuHLFznqRYvGF+yaq3gacrHK+e7ybpLduXhTxIlp/q5Kfo/vSTiXzjaLeTC1kq5Kem7q6AsIWidr+1s/p1uolcrdngZYBxspFvxkXr95WeRVi4QO5hRmW2TdW719KlMrcQFzEyzuaHQ1f9Nq1a9euXbu0lIbv1571fDlaw+gi0fOFey2PJtDyEAcNj7so9TwYZHJ1Q6neuh42w72U9aNMfQ8w0vKop7WveQhVeyiWnseHaXnQmp5H0ul5eN+HSrm1j485PGh5IGQ9CMW9V70k5tGZtd7aHTLaKNLgONZ/bt4z+R938QcAAAAASUVORK5CYII=" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +29,7 @@
             <h2 class="col-12">Payment Form Example</h2>
         </div>
         <div class="container">
-            <div class="alert alert-danger" role="alert">
+            <div class="alert alert-danger" hidden role="alert">
                 Some field are missing
             </div>
         </div>
@@ -117,7 +115,7 @@
                     <div class="col-md-6 position-relative">
                         <div class="row">
                             <p>We Accept:</p>
-                            <div class="col-md-5 position-relative f">
+                            <div class="col-md-5 position-relative div-cards">
                                 <div class="form-check form-check-inline col-md-1 position-relative">
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                                         value="option1">
@@ -156,9 +154,9 @@
                     </div>
                 </div>
                 <div class="row payment-footer">
-                    <div class="col-12 d-flex flex-row-reverse">
-                        <a href="" class="btn btn-primary">Send</a>
+                    <div class="col-12">
                         <a href="" class="btn btn-secondary">Close</a>
+                        <a href="" class="btn btn-primary">Send</a>
                     </div>
                 </div>
             </form>
