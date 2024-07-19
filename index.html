@@ -37,8 +37,8 @@
             <form class="">
                 <div class="row">
                     <div class="col-md-5 position-relative">
-                        <label class="form-label">Card</label>
-                        <input min="1111111111111111" max="9999999999999999" step="0"  type="number" class="form-control"  placeholder="xxxxxxxxxxxxxxxx" required>
+                        <label for="validationCustom01" class="form-label">Card</label>
+                        <input  min="1111111111111111" max="9999999999999999" step="0"  type="number" class="form-control"  id="validationCustom01"  placeholder="xxxxxxxxxxxxxxxx" required>
                     </div>
                     <div class="col-md-3 position-relative">
                         <label class="form-label">CVC #</label>
@@ -117,7 +117,7 @@
                             <p>We Accept:</p>
                             <div class="col-md-5 position-relative div-cards">
                                 <div class="form-check form-check-inline col-md-1 position-relative">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1"
                                         value="option1">
                                     <label class="form-check-label" for="inlineRadio1"><i
                                             class="fa-brands fa-cc-visa"></i></label>
@@ -155,8 +155,8 @@
                 </div>
                 <div class="row payment-footer">
                     <div class="col-12">
-                        <a href="" class="btn btn-secondary">Close</a>
-                        <a href="" class="btn btn-primary">Send</a>
+                        <button class="btn btn-secondary" type="submit">close</button>
+                        <button class="btn btn-primary" type="submit">Send</button>
                     </div>
                 </div>
             </form>
