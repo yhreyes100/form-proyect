@@ -1,0 +1,29 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.payment-header,.payment-footer,.div-cards {
+    margin-top: 10px;
+    padding: 3px;
+    background-color: rgb(216, 213, 213);
+}
+.payment-header h1{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.payment{
+    border: 3px solid black;
+}
+.container{
+    margin-top: 20px;
+}
+.finalfield{
+    margin-bottom: 20px;
+}
+.f{
+    margin-left: 10px;
+    background-color: rgb(216, 213, 213);
+    display: flex;
+    justify-content: space-between;
+}
