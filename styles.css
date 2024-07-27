@@ -28,3 +28,9 @@ body{
     padding: 5px;
     text-align: end;
 }
+
+.form-check-input:checked[type=radio]{
+    color: #fff;
+    border-color: black;
+    background-color:grey;
+}
